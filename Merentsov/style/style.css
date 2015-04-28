@@ -1,0 +1,116 @@
+body, .wrapper{
+    background: #F2F2F2;
+    min-height: 100vh;
+    height: 100vh;
+    max-height: 100vh;
+    font-family: 'Lato', sans-serif;
+    font-style: 10px;
+}
+.wrapper{
+    padding: 21vh 0;
+}
+.profile-inner{
+    text-align: center;
+}
+.profile-image{
+    display: inline-block;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px solid #9E9C9C;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.profile-image{
+    display: inline-block;
+    padding: 3px;
+}
+.profile-image:hover{
+    opacity: 0.8;
+    -ms-transform: scale(1.05); /* IE 9 */
+    -webkit-transform: scale(1.05); /* Safari */
+    transform: scale(1.05);
+    border: 1px solid #000;
+}
+
+.profile-image img{
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 3px solid #F2F2F2;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.profile-inner h1 a{
+    font-weight: 900;
+    font-size: 4.5rem;
+    color: #262626;
+    text-decoration: none;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.profile-inner h1 a:hover{
+    opacity: 0.8;
+}
+.profile-inner p{
+    color: #777777;
+    font-family: 'Lato',serif;
+    font-size: 19px;
+    font-weight: normal;
+    line-height: 30px;
+}
+.social-buttons ul{
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+}
+.social-buttons ul li{
+    display: inline-block;
+    margin: 0 15px;
+
+}
+
+.social-buttons ul li:first-child{
+     margin-left: 0;
+ }
+.social-buttons ul li:last-child{
+    margin-right: 0;
+}
+.social-buttons ul li a{
+    color: #979797;
+    font-size: 26px;
+    text-decoration: none;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.social-buttons ul li:hover a{
+    color: #7D7D7D;
+}
+
+@media screen and (max-width: 400px){
+    .wrapper{
+        padding: 15vh 0;
+    }
+    .social-buttons ul li{
+        margin: 0 10px;
+    }
+    .social-buttons ul li a{
+        font-size: 24px;
+    }
+}
